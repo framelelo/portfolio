@@ -114,16 +114,29 @@
     <section id="projects">
       <div class="container">
         <div class="project hidden slide-left">
+          <a href="https://www.cercle30.com/fr/" target="_blank">
+            <img src="assets/images/cercle_30.png" alt="Question Permis" />
+            <div class="details">
+            <h3>Cercle 30</h3>
+              <p>
+                Intégration du site avec le framework Vue.js dans le cadre professionnel en utilisant l'extension perfect pixel par exemple pour respectant la maquette.
+
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="project hidden span-2  slide-right">
           <a href="https://wellbeingofstrays.com/" target="_blank">
             <img
               src="assets/images/wos.png"
               alt="Création site web de Well-Being of Strays"
               loading="eager" />
             <div class="details">
+              <h3>Well-Being of Strays</h3>
               <p>
-                Site vitrine réalisé from scratch en utilisant les langages
-                natifs - HTML, CSS, JS, PHP et SQL... Maquette conçue avec
-                figma
+                Site vitrine réalisé bénévolement pour l'associaton en utilisant les langages comme HTML, CSS, JS, PHP et SQL, librairie Jquery pour les animations... <br>
+                Maquette conçue avec
+                figma et méthodologie Agile appliquée tout au long du projet qui a garantit la satisfaction de l'association.
               </p>
             </div>
           </a>
@@ -132,18 +145,6 @@
               <i class="fab fa-git-square"></i>
             </a>
           </div>
-        </div>
-        <div class="project hidden span-2 slide-right">
-          <a href="https://framelelo.github.io/Portfolio/" target="_blank">
-            <img src="assets/images/cercle_30.png" alt="Question Permis" />
-            <div class="details">
-              <p>
-                Site vitrine réalisé from scratch en utilisant les langages
-                natifs - HTML, CSS, JS, PHP et SQL... Maquette conçue avec
-                figma
-              </p>
-            </div>
-          </a>
         </div>
         <div class="project hidden span-2 slide-left">
           <a href="https://framelelo.github.io/Portfolios/" target="_blank">

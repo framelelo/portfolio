@@ -34,8 +34,13 @@ navList.addEventListener("click", () => {
     body.classList.remove("open");
     hamburger.firstElementChild.classList.add("fa-bars");
     hamburger.firstElementChild.classList.remove("fa-times");
-  } else {
-    body.classList.add("open");
   }
 });
 
+document.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    hamburger.classList.add("fixed");
+  } else {
+    hamburger.classList.remove("fixed");
+  }
+});

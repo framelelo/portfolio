@@ -53,7 +53,7 @@
     <div class="contact-links">
       <div class="left-sec">
         <a
-          href="https://www.linkedin.com/in/elodie-francois-75a144126/"
+          href="https://www.linkedin.com/in/elodie-fran%C3%A7ois-75a144126/"
           target="_blank"
           rel="noopener noreferrer nofollow">
           <i class="fab fa-linkedin"></i>

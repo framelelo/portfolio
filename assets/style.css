@@ -133,14 +133,23 @@ html {
             font-size: 1.2em;
             cursor: pointer;
             z-index: 1500;
+
+            &.fixed {
+              position: fixed;
+              background: var(--secondary-color);
+              width: 100vw;
+              right: 0;
+              top: 0;
+              padding: 10px 25px;
+            }
           }
         }
       }
       .title {
         h1 {
           color: var(--white);
-          font: 400 5.25em var(--heading-font);
-          line-height: 0.95em;
+          font: 400 4.25rem var(--heading-font);
+          line-height: 4rem;
           padding-bottom: 30px;
           animation: 0.7s ease-out slideInLeft;
         }
@@ -260,7 +269,7 @@ html {
         position: relative;
         .container {
           position: sticky;
-          z-index: 1000;
+          z-index: 100;
           top: 0;
           padding: 30px;
           border: calc(2 * 10px) solid #0000;
@@ -277,7 +286,6 @@ html {
           p {
             font: 300 1.2em var(--body-font);
             color: var(--grey);
-            text-align: justify;
             line-height: 1.35em;
             padding-bottom: 15px;
           }
@@ -349,12 +357,9 @@ html {
               padding: 20px;
               transition: all 0.5s ease-in-out;
               i {
-                color: var(--white);
+                color: var(--black);
                 font-size: 35px;
                 transition: all 0.3s ease-in-out;
-                &.black {
-                  color: var(--black);
-                }
               }
               &:hover {
                 i {
@@ -370,6 +375,11 @@ html {
               .details {
                 height: 100%;
                 top: 0;
+              }
+              .git-link {
+                i {
+                  color: var(--white);
+                }
               }
             }
           }

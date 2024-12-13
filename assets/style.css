@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-wrap: balance;
 }
 
 /* VARIABLES */
@@ -23,6 +22,14 @@ html {
 
   body {
     font-family: var(--body-font);
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-wrap: balance;
+    }
     ul {
       list-style: none;
     }
